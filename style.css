@@ -1,0 +1,254 @@
+body {
+    font-family: 'Sintony', Arial, Helvetica, sans-serif;
+    background-color: #717499;
+    color: #1D202A;
+}
+#navbar{
+    background-color: #717499;
+    color: #f2f0f0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+}
+
+.nav-bar-right li {
+    list-style-type: none;
+    display: block;
+    position: relative;
+    padding: 10px 10px;
+    font-size: 10pt;
+    float: left;
+    color: #f2f0f0;
+    
+}
+
+.nav-bar-right a {
+    color: #f2f0f0;
+}
+
+.nav-bar-right li a:hover{
+    text-decoration: none;
+    color: #1D202A;
+}
+
+.nav-bar-left {
+    color: #f2f0f0;
+    float: left;
+    padding: 10px 10px;
+    font-size: 14pt;
+}
+
+.nav-bar-left:hover{
+    text-decoration: none;
+    color: #1D202A;
+}
+
+#home {
+    height: 800px;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0px;
+    position: relative;
+    margin: 0;
+    background-image: url(assets/clothespin.wallpaper.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #1D202A
+    
+}
+
+#large-header{
+    position: relative;
+    text-align: center;
+    padding-top: 350px;
+    padding-bottom: 30px;
+}
+
+#large-header h1{
+    font-size: 28pt;
+}
+
+#large-header h4{
+    font-size: 16pt;
+}
+
+.quick-contacts{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    padding: 0;
+}
+
+.quick-contacts li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    padding: 10px 10px;
+    font-size: 10pt;
+}
+
+.quick-contacts li a{
+    color: #1D202A;
+}
+
+.quick-contacts li a:hover{
+    color: #7E93B9;
+    text-decoration: none;
+}
+
+#profile-picture img{
+    display: block;
+    height: 300px;
+    max-width: 80%;
+    float: left;
+    padding-top: 30px;
+}
+
+#about-me-paragraph{
+    border: 3px solid #1D202A;
+    background-color: #f2f0f0;
+    padding: 10px;
+}
+
+#about-me-paragraphy h5{
+    padding-top: 20px;
+}
+
+#pet-pictures img{
+    width: 70px;
+    height: 70px;
+    float: center;
+    text-align: center;
+}
+
+#pet-pictures li{
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+#resume{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#resume a{
+    text-decoration: underline;
+    text-align: center;
+    padding: 10px;
+    color: #1D202A;
+    border: 3px solid #1D202A;
+    background-color: #f2f0f0;
+    padding: 10px 40px;
+}
+
+#resume a:hover{
+    color: #7E93B9;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#philosophy{
+    padding: 10px 30px;
+    color: #f2f0f0;
+    background-color:#1D202A;
+    margin: 40px;
+}
+
+#philosophy p{
+    margin: 0 0 30px;
+    height: 100px;
+    padding-top: 30px;
+}
+
+.tenets{
+    text-align: center;
+}
+
+#works {
+    padding: 30px;
+    color: #f2f0f0;
+    background-color: #1D202A;
+    margin: 40px;
+}
+
+#works img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #7E93B9;
+}
+
+#works img:hover{
+    transform: scale(1.25);
+}
+
+#contact{
+    padding: 30px;
+}
+
+.form-left {
+    padding-top: 20px;
+}
+
+.form-left form input {
+    display: block;
+    float: left;
+
+}
+
+.form-right {
+    padding-top: 20px;
+}
+
+input{
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: 0;
+    border-bottom: 2px solid #1D202A;
+    width: 100%;
+}
+
+.form-message textarea {
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    border-bottom: 2px solid #1D202A;
+}
+
+.button button{
+    text-decoration: none;
+    padding: 10px;
+    color: #1D202A;
+    border: 2px solid #1D202A;
+    background-color: #f2f0f0;
+}
+
+.button button:hover{
+    color: #f2f0f0;
+    background-color: #1D202A;
+}
+
+#footer {
+    background-color: #1D202A;
+    color: #f2f0f0;
+    z-index: 1;
+    width: 100%;
+    height: 35px;
+}
+
+#footer div{
+    padding-top: 4px;
+    text-align: center;
+}
